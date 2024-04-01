@@ -6,7 +6,7 @@ function createCard(array) {
 >
  <img
    src=${array.foto}
-   alt="manzana"
+   alt="foto-frutas"
  />
  <p><b>Nombre:</b> ${array.nombre}</p>
  <p><b>Precio:</b>${array.precio}</p>
