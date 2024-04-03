@@ -2,8 +2,7 @@ let container = document.getElementById("container_top");
 function createCard(array) {
  return `<div
  class="w-56 p-5 border-solid border-2 border-black"
- 
->
+ >
  <img
    src=${array.foto}
    alt="foto-frutas"
