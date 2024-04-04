@@ -17,7 +17,7 @@ function createCard(array) {
 /* console.log(createCard(frutas[0])) */
 /* container.innerHTML+=createCard(frutas) */
 function renderizarCards(array,contenedor){
-    contenedor.innerHTML= array.map(createCard)
+    contenedor.innerHTML = array.map(createCard)
 }
 renderizarCards(frutas,container)
 
