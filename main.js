@@ -10,7 +10,7 @@ function createCard(array) {
  <p><b>Nombre: </b> ${array.nombre}</p>
  <p><b>Precio: </b>${array.precio}</p>
  <p>
-   <b>Descripcion:</b> ${array.descripcion}
+   <b>Descripcion: </b> ${array.descripcion}
  </p>
 </div>`;
 }
