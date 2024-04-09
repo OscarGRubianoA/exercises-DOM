@@ -7,12 +7,10 @@
     <title>Frutas</title>
   </head>
   <body>
-    <main class="m-5 max-w-full flex flex-col">
+    <main class="m-5  flex flex-col">
       <h1 class="text-center text-6xl font-black">Frutas</h1>
-      <div
-        class="w-56 p-5 border-solid border-2 border-black flex flex-wrap"
-        id="container_top"
-      >
+       
+     
        <!--  <img
           src="https://media.istockphoto.com/id/184276818/es/foto/manzana-red.jpg?s=612x612&w=0&k=20&c=BFD8ixD7eyXMm3aSVIdz1hUsLG-lX8Ig2HBr6IVJuzU="
           alt="manzana"
@@ -23,8 +21,24 @@
           <b>Descripcion:</b> La manzana es una fruta deliciosa y jugosa. Es una
           excelente fuente de fibra y vitaminas.
         </p> -->
-      </div>
+      
+      <div
+      class=" p-5  flex flex-wrap justify-center gap-4"
+      id="checkbox"
+    ></div>
+    <label class="flex justify-center items-center p-4 mb-8"><b>Buscar por nombre</b>
+<input type="search" name="" id="search"class="border-8 border-solid">
+    </label>
+  <!--   <div
+    class=" p-5 flex flex-wrap"
+    id="container_top"
+  ></div> -->
+     <div
+    class="max-w-full   flex flex-wrap justify-center items-center gap-4 "
+    id="contenedor_cards"
+  ></div>
     </main>
+
     <script src="./data.js"></script>
     <script src="./main.js"></script>
   </body>
