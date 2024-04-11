@@ -7,7 +7,7 @@ let search = document.getElementById("search")
 
 
 
-let frutasFiltradas= frutas.filter(fruta=>fruta.colorPrincipal)
+let frutasFiltradas = frutas.filter(fruta=>fruta.colorPrincipal)
 console.log(frutasFiltradas)
 let coloresFrutas=Array.from(new Set(frutas.map(e => e.colorPrincipal))) 
 console.log(coloresFrutas);
