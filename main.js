@@ -67,7 +67,7 @@ search.addEventListener("keyup", e=> {
   console.log()
     function createCards(array,container){
     let div = document.createElement("div")
-    div.className=`w32 h32 bg-red-400m-4`
+    div.className = `w32 h32 bg-red-400m-4`
     div.innerHTML = `<h1${array.title}${array.tagline}</h1>`
     container.appendChild(div)
   } 
