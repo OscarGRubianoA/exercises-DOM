@@ -12,7 +12,7 @@ let contenedorCards = document.getElementById("contenedor_cards")
 console.log(frutasFiltradas)
 let coloresFrutas = Array.from(new Set(frutas.map(e => e.colorPrincipal))) 
 console.log(coloresFrutas);
-let crearCheckbox=nombreColor=>
+let crearCheckbox = nombreColor=>
 `<label>${nombreColor}
 <input type="checkbox" name="${nombreColor}" value="${nombreColor}">
 </label>`
