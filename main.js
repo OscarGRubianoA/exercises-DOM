@@ -20,7 +20,7 @@ let crearCheckbox = nombreColor=>
 </label>`
 let checkboxColores = array => array.map(crearCheckbox).reduce((a,b)=>a+b)
 console.log(checkboxColores(coloresFrutas))
-contenedorCheckbox.innerHTML=checkboxColores(coloresFrutas) 
+contenedorCheckbox.innerHTML = checkboxColores(coloresFrutas) 
 let crearCardMini = fruta => `<div class="w-96 border border-solid h-48 flex justify-center">
 <img  src="${fruta.foto}" alt="${fruta.nombre}" class="w-32"/>
 <p><b>Nombre:</b> ${fruta.nombre}</p>
