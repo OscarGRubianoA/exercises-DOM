@@ -33,7 +33,7 @@ contenedorCards.innerHTML = crearCardsConFrutas(frutasFiltradas)
  contenedorCheckbox.addEventListener("change", e => {let checkChecked = Array.from(document.querySelectorAll(`input[type="checkbox"]:checked`)).map(input => input.value)
 console.log(checkChecked)
 
- contenedorCards.innerHTML = crearCardsConFrutas((frutasFiltradas.filter(fruta=>checkChecked.includes(fruta.colorPrincipal))))
+ contenedorCards.innerHTML = crearCardsConFrutas((frutasFiltradas.filter(fruta => checkChecked.includes(fruta.colorPrincipal))))
 })
 search.addEventListener("keyup", e=> {
   let nombreIngresado = e.target.value
