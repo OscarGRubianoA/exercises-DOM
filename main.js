@@ -35,7 +35,7 @@ console.log(checkChecked)
 
  contenedorCards.innerHTML = crearCardsConFrutas((frutasFiltradas.filter(fruta => checkChecked.includes(fruta.colorPrincipal))))
 })
-search.addEventListener("keyup", e=> {
+search.addEventListener("keyup", e  => {
   let nombreIngresado = e.target.value
   contenedorCards.innerHTML=crearCardsConFrutas((frutasFiltradas.filter(fruta=>fruta.nombre.toLowerCase().includes(nombreIngresado.trim().toLowerCase())  )))
 })  
