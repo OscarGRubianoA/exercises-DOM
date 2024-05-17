@@ -18,7 +18,7 @@ let crearCheckbox = nombreColor =>
 `<label>${nombreColor}
 <input type="checkbox" name="${nombreColor}" value="${nombreColor}">
 </label>`
-let checkboxColores = array => array.map(crearCheckbox).reduce((a,b)=>a+b)
+let checkboxColores = array => array.map(crearCheckbox).reduce((a,b) => a+b)
 console.log(checkboxColores(coloresFrutas))
 contenedorCheckbox.innerHTML = checkboxColores(coloresFrutas) 
 let crearCardMini = fruta => `<div class="w-96 border border-solid h-48 flex justify-center">
