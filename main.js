@@ -37,7 +37,7 @@ console.log(checkChecked)
 })
 search.addEventListener("keyup", e  => {
   let nombreIngresado = e.target.value
-  contenedorCards.innerHTML=crearCardsConFrutas((frutasFiltradas.filter(fruta => fruta.nombre.toLowerCase().includes(nombreIngresado.trim().toLowerCase())  )))
+  contenedorCards.innerHTML = crearCardsConFrutas((frutasFiltradas.filter(fruta => fruta.nombre.toLowerCase().includes(nombreIngresado.trim().toLowerCase())  )))
 })  
  
 /*  document.addEventListener("DOMContentLoaded", function () {
