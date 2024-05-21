@@ -65,7 +65,7 @@ search.addEventListener("keyup", e  => {
       "X-API-key":"0ff70d54-dc0b-4262-9c3d-776cb0f34dbd"
     }
   })
-  .then(response=>response.json()).then(data=>console.log(data)/* ;createCards(movies,contenedorCards) */).catch(error=>console.log(error))
+  .then(response => response.json()).then(data=>console.log(data)/* ;createCards(movies,contenedorCards) */).catch(error=>console.log(error))
   console.log()
     function createCards(array,container){
     let div = document.createElement("div")
