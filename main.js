@@ -8,7 +8,7 @@ let button1 = document.getElementById("button1")
 /* button.addEventListener("click", event =>console.log(event.target)) */
 
 console.log(button1)
-contador=0
+contador = 0
 button1.addEventListener("click", (event) => location.href="www.google.com")
  let frutasFiltradas = frutas.filter(fruta => fruta.colorPrincipal)
 console.log(frutasFiltradas)
