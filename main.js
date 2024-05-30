@@ -1,5 +1,5 @@
 let container = document.getElementById("container_top");
-let button = document.getElementById("button");
+let button = document.getElementById("button")
 let contenedorCheckbox = document.getElementById("checkbox")
 
 let search = document.getElementById("search") 
