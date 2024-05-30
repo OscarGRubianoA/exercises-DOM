@@ -67,7 +67,7 @@ search.addEventListener( "keyup", e  => {
   })
   .then(response => response.json()).then(data => console.log(data)/* ;createCards(movies,contenedorCards) */).catch(error=>console.log(error))
   console.log()
-    function createCards( array , container ){
+    function createCards(array , container){
     let div = document.createElement("div")
     div.className = `w32 h32 bg-red-400m-4`
     div.innerHTML = `<h1${array.title}${array.tagline}</h1>`
