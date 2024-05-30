@@ -1,4 +1,4 @@
-let container = document.getElementById("container_top");
+let container = document.getElementById("container_top")
 let button = document.getElementById("button")
 let contenedorCheckbox = document.getElementById("checkbox")
 
