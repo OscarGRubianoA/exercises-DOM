@@ -1,7 +1,6 @@
 let container = document.getElementById("container_top")
 let button = document.getElementById("button")
 let contenedorCheckbox = document.getElementById("checkbox")
-
 let search = document.getElementById("search") 
 let contenedorCards = document.getElementById("contenedor_cards")
 let button1 = document.getElementById("button1")
