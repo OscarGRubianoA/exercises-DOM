@@ -26,7 +26,7 @@ let crearCardMini = fruta => `<div class="w-96 border border-solid h-48 flex jus
 <p><b>Precio:</b> ${fruta.precio}</p>
 <p><b>Color:</b> ${fruta.colorPrincipal}</p>
 </div>`
-let crearCardsConFrutas = array => array.map(crearCardMini).reduce( (a,b) => a + b)
+let crearCardsConFrutas = array => array.map(crearCardMini).reduce((a,b) => a + b)
 contenedorCards.innerHTML = crearCardsConFrutas(frutasFiltradas)
  console.log(crearCardsConFrutas(frutasFiltradas)) 
  contenedorCheckbox.addEventListener("change", e => {let checkChecked = Array.from(document.querySelectorAll(`input[type="checkbox"]:checked`)).map(input => input.value)
