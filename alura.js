@@ -3,7 +3,7 @@ let soma = 0;
 let contador = qtdNumeros;
 
 while(contador > 0){
-    let numero = parseInt(prompt('Digite el numero:'));
+    let numero = parseInt(prompt('Digite el numero: '));
     soma += numero;
     contador--;
 }
