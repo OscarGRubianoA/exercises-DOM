@@ -1,4 +1,4 @@
-let qtdNumeros = prompt('Digite la cantidad de números para el cálculo del promedio:');
+let qtdNumeros = prompt('Digite la cantidad de números para el cálculo del promedio: ');
 let soma = 0;
 let contador = qtdNumeros;
 
