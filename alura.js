@@ -4,7 +4,7 @@ let contador = qtdNumeros;
 
 while(contador > 0){
     let numero = parseInt(prompt('Digite el numero: '));
-    soma += numero;
+    soma+= numero;
     contador --;
 }
 
