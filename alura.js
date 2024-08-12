@@ -5,7 +5,7 @@ let contador = qtdNumeros;
 while(contador > 0){
     let numero = parseInt(prompt('Digite el numero: '));
     soma+=numero;
-    contador --;
+    contador--;
 }
 
 let promedio = soma / qtdNumeros;
