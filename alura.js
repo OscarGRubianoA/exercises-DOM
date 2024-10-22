@@ -66,7 +66,7 @@ function generarCombinaciones(array) {
   function majorCombination(array){
     let major = array[0];
     for(let i = 0; i < array.length; i++){
-        if(array[i]>major){
+        if(array[i] >major){
            major = array[i];
         }
     }
