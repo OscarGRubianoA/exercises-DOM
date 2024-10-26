@@ -56,7 +56,7 @@ function generarCombinaciones(array) {
       }
     }
   
-    backtracking( [], array);
+    backtracking([], array);
     return combinaciones;
   }
   
