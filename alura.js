@@ -43,7 +43,7 @@ moreGreat(numeros)*/
 function generarCombinaciones(array) {
     const combinaciones = [];
   
-    function backtracking( combinacionActual,elementosRestantes) {
+    function backtracking( combinacionActual ,elementosRestantes) {
       if (elementosRestantes.length === 0) {
         combinaciones.push(combinacionActual.join(''));
         return;
